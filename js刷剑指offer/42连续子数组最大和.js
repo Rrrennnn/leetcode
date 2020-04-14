@@ -32,6 +32,6 @@ var maxSubArray = function(nums){
         }
         max = max > pre ? max : pre;
         return pre;
-    })
+    },0)
     return max;
 }
